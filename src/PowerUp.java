@@ -1,3 +1,11 @@
+/** 
+ * PowerUp.java
+ * Author: Ari Khan
+ * Version: 1.0.0
+ * Date: 2025-11-16
+ * Description: A class describing power-up elements in the game.
+*/ 
+
 import java.awt.Color;
 import java.awt.Graphics;
 

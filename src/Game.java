@@ -1,3 +1,11 @@
+/** 
+ * Game.java
+ * Author: Ari Khan
+ * Version: 1.0.0
+ * Date: 2025-11-16
+ * Description: A Java program to play a space shooter game.
+*/ 
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -12,11 +20,14 @@ import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
 public class Game extends JPanel implements Runnable, KeyListener {
+    // Initialize objects
     private final Spacecraft player;
+    private final Text text;
+
+    // Initialize object lists
     private final ArrayList<Shot> shots = new ArrayList<>();
     private final ArrayList<Enemy> enemies = new ArrayList<>();
     private final ArrayList<PowerUp> powerUps = new ArrayList<>();
-    private final Text text;
 
     private boolean running = true;
     private int enemySpawnTimer = 0;

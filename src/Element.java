@@ -1,3 +1,11 @@
+/** 
+ * Element.java
+ * Author: Ari Khan
+ * Version: 1.0.0
+ * Date: 2025-11-16
+ * Description: A class representing a generic game element.
+*/
+
 import java.awt.Graphics;
 import java.awt.Rectangle;
 
